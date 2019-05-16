@@ -3,15 +3,17 @@
     height:50px;
     border-radius: 50%;
     background-color: #0000FF;
-    top:0px;
-    animation-name: jump;
-    animation-duration: 10s;
-    animation-direction: alternate;
+    top:100px;
+    animation:jump 10s alternate;
+    
 }
 
 @keyframes jump {
-    from{top:0px;}
-    
-    to{top:100px;}
+    from {top:0px;
+        
     }
+    to{top:100px;
+        
+    }
+}
     
